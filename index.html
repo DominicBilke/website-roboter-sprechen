@@ -569,19 +569,19 @@
                     <img src="images/pic01.jpg" alt="Robot" class="robot-image" id="robotImage">
                 </div>
                 <div class="robot-info">
-                    <h3>AI-Powered Assistant</h3>
-                    <p>Advanced natural language processing with voice recognition and synthesis capabilities</p>
+                    <h3 id="robotInfo">AI-Powered Assistant</h3>
+                    <p id="robotDescription">Advanced natural language processing with voice recognition and synthesis capabilities</p>
                 </div>
             </div>
 
             <!-- Chat Section -->
             <div class="chat-section">
                 <div class="chat-header">
-                    <h3>Start Talking</h3>
-                    <p>Click the microphone and ask anything!</p>
+                    <h3 id="chatHeader">Start Talking</h3>
+                    <p id="chatDescription">Click the microphone and ask anything!</p>
                 </div>
                 <button id="speakButton" class="speak-btn" title="Speak">
-                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBmaWxsPSIjZmZmZmZmIj48ZGVmcz48ZmlsdGVyIGlkPSJnbG93Ij48ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSI0Ii8+PGZlQ29sb3JNYXRyaXggdHlwZT0ic2F0dXJhdGUiIHZhbHVlcz0iMSIvPjwvZmlsdGVyPjwvZGVmcz48ZyBmaWx0ZXI9InVybCgjZ2xvdykiPjxwYXRoIGQ9Ik0yNTYgNDhjMTMuMyAwIDI0IDEwLjcgMjQgMjR2MTkyYzAgMTMuMy0xMC43IDI0LTI0IDI0cy0yNC0xMC43LTI0LTI0VjcyYzAtMTMuMyAxMC43LTI0IDI0LTI0eiIgZmlsbD0iI2ZmZmZmZiIvPjxwYXRoIGQ9Ik0yNTYgNDhjMTMuMyAwIDI0IDEwLjcgMjQgMjR2MTkyYzAgMTMuMy0xMC43IDI0LTI0IDI0cy0yNC0xMC43LTI0LTI0VjcyYzAtMTMuMyAxMC43LTI0IDI0LTI0eiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDBkNmZmIiBzdHJva2Utd2lkdGg9IjMiLz48cGF0aCBkPSJNMjU2IDQ4YzEzLjMgMCAyNCAxMC43IDI0IDI0djE5MmMwIDEzLjMtMTAuNyAyNC0yNCAyNHMtMjQtMTAuNy0yNC0yNFY3MmMwLTEzLjMgMTAuNy0yNCAyNC0yNHoiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmNmI5ZCIgc3Ryb2tlLXdpZHRoPSIyIi8+PHBhdGggZD0iTTI1NiA0OGMxMy4zIDAgMjQgMTAuNyAyNCAyNHYxOTJjMCAxMy4zLTEwLjcgMjQtMjQgMjRzLTI0LTEwLjctMjQtMjRWNzJjMC0xMy4zIDEwLjctMjQgMjQtMjR6IiBmaWxsPSJub25lIiBzdHJva2U9IiM3YzNhZWQiIHN0cm9rZS13aWR0aD0iMSIvPjxwYXRoIGQ9Ik0yNTYgNDhjMTMuMyAwIDI0IDEwLjcgMjQgMjR2MTkyYzAgMTMuMy0xMC43IDI0LTI0IDI0cy0yNC0xMC43LTI0LTI0VjcyYzAtMTMuMyAxMC43LTI0IDI0LTI0eiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjEiIHN0eWxlPSJvcGFjaXR5OiAwLjMiLz48L2c+PHBhdGggZD0iTTI1NiAyNzJjLTUzIDAtOTYtNDMtOTYtOTZ2LTQ4YzAtMTMuMyAxMC43LTI0IDI0LTI0czI0IDEwLjcgMjQgMjR2NDhjMCAyNi41IDIxLjUgNDggNDggNDhzNDgtMjEuNSA0OC00OHYtNDhjMC0xMy4zIDEwLjctMjQgMjQtMjRzMjQgMTAuNyAyNCAyNHY0OGMwIDU3LTQzIDk2LTk2IDk2eiIgZmlsbD0iI2ZmZmZmZiIvPjxwYXRoIGQ9Ik0yNTYgMjcyYy01MyAwLTk2LTQzLTk2LTk2di00OGMwLTEzLjMgMTAuNy0yNCAyNC0yNHMyNCAxMC43IDI0IDI0djQ4YzAgMjYuNSA2LjUgNDggNDggNDhzNDgtMjEuNSA0OC00OHYtNDhjMC0xMy4zIDEwLjctMjQgMjQtMjRzMjQgMTAuNyAyNCAyNHY0OGMwIDUzLTQzIDk2LTk2IDk2eiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDBkNmZmIiBzdHJva2Utd2lkdGg9IjMiLz48cGF0aCBkPSJNMjU2IDI3MmMtNTMgMC05Ni00My05Ni05NnYtNDhjMC0xMy4zIDEwLjctMjQgMjQtMjRzMjQgMTAuNyAyNCAyNHY0OGMwIDI2LjUgMjEuNSA0OCA0OCA0OHM0OC0yMS41IDQ4LTQ4di00OGMwLTEzLjMtMTAuNy0yNC0yNC0yNHMyNCAxMC43IDI0IDI0djQ4YzAgNTMtNDMgOTYtOTYgOTZ6IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZjZiOWQiIHN0cm9rZS13aWR0aD0iMiIvPjxwYXRoIGQ9Ik0yNTYgMjcyYy01MyAwLTk2LTQzLTk2LTk2di00OGMwLTEzLjMgMTAuNy0yNCAyNC0yNHMyNCAxMC43IDI0IDI0djQ4YzAgMjYuNSA2LjUgNDggNDggNDhzNDgtMjEuNSA0OC00OHYtNDhjMC0xMy4zIDEwLjctMjQgMjQtMjRzMjQgMTAuNyAyNCAyNHY0OGMwIDUzLTQzIDk2LTk2IDk2eiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjN2MzYWVkIiBzdHJva2Utd2lkdGg9IjEiLz48cGF0aCBkPSJNMjU2IDI3MmMtNTMgMC05Ni00My05Ni05NnYtNDhjMC0xMy4zIDEwLjctMjQgMjQtMjRzMjQgMTAuNyAyNCAyNHY0OGMwIDI2LjUgMjEuNSA0OCA0OCA0OHM0OC0yMS41IDQ4LTQ4di00OGMwLTEzLjMtMTAuNy0yNC0yNC0yNHoiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLXdpZHRoPSIxIiBzdHlsZT0ib3BhY2l0eTogMC4yIi8+PHBhdGggZD0iTTI1NiAzNjhjLTI2LjUgMC00OC0yMS41LTQ4LTQ4di00OGMwLTEzLjMgMTAuNy0yNCAyNC0yNHMyNCAxMC43IDI0IDI0djQ4YzAgMjYuNSAyMS41IDQ4IDQ4IDQ4czQ4LTIxLjUgNDgtNDh2LTQ4YzAtMTMuMy0xMC43LTI0LTI0LTI0cy0yNCAxMC43LTI0IDI0djQ4YzAgMjYuNS0yMS41IDQ4LTQ4IDQ4eiIgZmlsbD0iI2ZmZmZmZiIvPjxwYXRoIGQ9Ik0yNTYgMzY4Yy0yNi41IDAtNDgtMjEuNS00OC00OHYtNDhjMC0xMy4zIDEwLjctMjQgMjQtMjRzMjQgMTAuNyAyNCAyNHY0OGMwIDI2LjUgMjEuNSA0OCA0OCA0OHM0OC0yMS41IDQ4LTQ4di00OGMwLTEzLjMtMTAuNy0yNC0yNC0yNHoiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwZDZmZiIgc3Ryb2tlLXdpZHRoPSIzIi8+PHBhdGggZD0iTTI1NiAzNjhjLTI2LjUgMC00OC0yMS41LTQ4LTQ4di00OGMwLTEzLjMgMTAuNy0yNCAyNC0yNHMyNCAxMC43IDI0IDI0djQ4YzAgMjYuNS0yMS41IDQ4LTQ4IDQ4eiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjEiIHN0eWxlPSJvcGFjaXR5OiAwLjIiLz48cGF0aCBkPSJNMjU2IDM2OGMtMjYuNSAwLTQ4LTIxLjUtNDgtNDh2LTQ4YzAtMTMuMyAxMC43LTI0IDI0LTI0czI0IDEwLjcgMjQgMjR2NDhjMCAyNi41LTIxLjUgNDgtNDggNDh6IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iMSIgc3R5bGU9Im9wYWNpdHk6IDAuMSIvPjxwYXRoIGQ9Ik0yNTYgMjcyYy01MyAwLTk2LTQzLTk2LTk2di00OGMwIDEzLjMtMTAuNyAyNC0yNCAyNHMtMjQgMTAuNy0yNCAyNHY0OGMwIDUzIDQzIDk2IDk2IDk2czk2LTQzIDk2LTk2di00OGMwLTEzLjMtMTAuNy0yNC0yNC0yNHMtMjQgMTAuNy0yNCAyNHY0OGMwIDUzLTQzIDk2LTk2IDk2eiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjEiIHN0eWxlPSJvcGFjaXR5OiAwLjEiLz48cGF0aCBkPSJNMjU2IDM2OGMtMjYuNSAwLTQ4LTIxLjUtNDgtNDh2LTQ4YzAtMTMuMyAxMC43LTI0IDI0LTI0czI0IDEwLjcgMjQgMjR2NDhjMCAyNi41LTIxLjUgNDgtNDggNDh6IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iMSIgc3R5bGU9Im9wYWNpdHk6IDAuMiIvPjxwYXRoIGQ9Ik0yNTYgNDMyYy0xMy4zIDAtMjQtMTAuNy0yNC0yNHYtNDhjMC0xMy4zIDEwLjctMjQgMjQtMjRzMjQgMTAuNyAyNCAyNHY0OGMwIDEzLjMtMTAuNyAyNC0yNCAyNHoiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLXdpZHRoPSIxIiBzdHlsZT0ib3BhY2l0eTogMC4xIi8+PHBhdGggZD0iTTI1NiA0MzJjLTEzLjMgMC0yNC0xMC43LTI0LTI0di00OGMwLTEzLjMgMTAuNy0yNCAyNC0yNHMyNCAxMC43IDI0IDI0djQ4YzAgMTMuMy0xMC43IDI0LTI0IDI0eiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjEiIHN0eWxlPSJvcGFjaXR5OiAwLjIiLz48cGF0aCBkPSJNMjU2IDQzMmMtMTMuMyAwLTI0LTEwLjctMjQtMjR2LTQ4YzAtMTMuMyAxMC43LTI0IDI0LTI0czI0IDEwLjctMjQgMjR2NDhjMCAxMy4zLTEwLjcgMjQtMjQgMjR6IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iMSIgc3R5bGU9Im9wYWNpdHk6IDAuMSIvPjxwYXRoIGQ9Ik0yNTYgNDg4Yy02LjYgMC0xMi01LjQtMTItMTJ2LTQ4YzAtNi42IDUuNC0xMiAxMi0xMnMxMiA1LjQgMTIgMTJ2NDhjMCA2LjYtNS40IDEyLTEyIDEyeiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjEiIHN0eWxlPSJvcGFjaXR5OiAwLjIiLz48cGF0aCBkPSJNMjU2IDQ4OGMtNi42IDAtMTItNS40LTEyLTEydi00OGMwIDYuNi0xMC43IDEyLTI0IDEycy0yNC01LjQtMjQtMTJ2LTQ4YzAtNi42IDEwLjctMTIgMjQtMTJzMjQgNS40IDI0IDEydjQ4YzAgNi42LTUuNCAxMi0xMiAxMnoiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLXdpZHRoPSIxIiBzdHlsZT0ib3BhY2l0eTogMC4xIi8+PC9zdmc+" alt="Robotic Microphone">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBmaWxsPSIjZmZmZmZmIj48ZGVmcz48ZmlsdGVyIGlkPSJnbG93Ij48ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSI0Ii8+PGZlQ29sb3JNYXRyaXggdHlwZT0ic2F0dXJhdGUiIHZhbHVlcz0iMSIvPjwvZmlsdGVyPjwvZGVmcz48ZyBmaWx0ZXI9InVybCgjZ2xvdykiPjxwYXRoIGQ9Ik0yNTYgNDhjMTMuMyAwIDI0IDEwLjcgMjQgMjR2MTkyYzAgMTMuMy0xMC43IDI0LTI0IDI0cy0yNC0xMC43LTI0LTI0VjcyYzAtMTMuMyAxMC43LTI0IDI0LTI0eiIgZmlsbD0iI2ZmZmZmZiIvPjxwYXRoIGQ9Ik0yNTYgNDhjMTMuMyAwIDI0IDEwLjcgMjQgMjR2MTkyYzAgMTMuMy0xMC43IDI0LTI0IDI0cy0yNC0xMC43LTI0LTI0VjcyYzAtMTMuMyAxMC43LTI0IDI0LTI0eiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDBkNmZmIiBzdHJva2Utd2lkdGg9IjMiLz48cGF0aCBkPSJNMjU2IDQ4YzEzLjMgMCAyNCAxMC43IDI0IDI0djE5MmMwIDEzLjMtMTAuNyAyNC0yNCAyNHMtMjQtMTAuNy0yNC0yNFY3MmMwLTEzLjMgMTAuNy0yNCAyNC0yNHoiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmNmI5ZCIgc3Ryb2tlLXdpZHRoPSIyIi8+PHBhdGggZD0iTTI1NiA0OGMxMy4zIDAgMjQgMTAuNyAyNCAyNHYxOTJjMCAxMy4zLTEwLjcgMjQtMjQgMjRzLTI0LTEwLjctMjQtMjRWNzJjMC0xMy4zIDEwLjctMjQgMjQtMjR6IiBmaWxsPSJub25lIiBzdHJva2U9IiM3YzNhZWQiIHN0cm9rZS13aWR0aD0iMSIvPjxwYXRoIGQ9Ik0yNTYgNDhjMTMuMyAwIDI0IDEwLjcgMjQgMjR2MTkyYzAgMTMuMy0xMC43IDI0LTI0IDI0cy0yNC0xMC43LTI0LTI0VjcyYzAtMTMuMyAxMC43LTI0IDI0LTI0eiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjEiIHN0eWxlPSJvcGFjaXR5OiAwLjMiLz48L2c+PHBhdGggZD0iTTI1NiAyNzJjLTUzIDAtOTYtNDMtOTYtOTZ2LTQ4YzAtMTMuMyAxMC43LTI0IDI0LTI0czI0IDEwLjcgMjQgMjR2NDhjMCAyNi41IDIxLjUgNDggNDggNDhzNDgtMjEuNSA0OC00OHYtNDhjMC0xMy4zIDEwLjctMjQtMjQtMjRzMjQgMTAuNyAyNCAyNHY0OGMwIDU3LTQzIDk2LTk2IDk2eiIgZmlsbD0iI2ZmZmZmZiIvPjxwYXRoIGQ9Ik0yNTYgMjcyYy01MyAwLTk2LTQzLTk2LTk2di00OGMwLTEzLjMgMTAuNy0yNCAyNC0yNHMyNCAxMC43IDI0IDI0djQ4YzAgMjYuNSA2LjUgNDggNDggNDhzNDgtMjEuNSA0OC00OHYtNDhjMC0xMy4zIDEwLjctMjQgMjQtMjRzMjQgMTAuNyAyNCAyNHY0OGMwIDUzLTQzIDk2LTk2IDk2eiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDBkNmZmIiBzdHJva2Utd2lkdGg9IjMiLz48cGF0aCBkPSJNMjU2IDI3MmMtNTMgMC05Ni00My05Ni05NnYtNDhjMC0xMy4zIDEwLjctMjQgMjQtMjRzMjQgMTAuNyAyNCAyNHY0OGMwIDI2LjUtMjEuNSA0OC00OCA0OHM0OC0yMS41IDQ4LTQ4di00OGMwLTEzLjMtMTAuNy0yNC0yNC0yNHoiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmNmI5ZCIgc3Ryb2tlLXdpZHRoPSIyIi8+PHBhdGggZD0iTTI1NiAyNzJjLTUzIDAtOTYtNDMtOTYtOTZ2LTQ4YzAtMTMuMyAxMC43LTI0IDI0LTI0czI0IDEwLjcgMjQgMjR2NDhjMCAyNi41IDYuNSA0OCA0OCA0OHM0OC0yMS41IDQ4LTQ4di00OGMwLTEzLjMtMTAuNy0yNC0yNC0yNHoiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLXdpZHRoPSIxIi8+PHBhdGggZD0iTTI1NiAzNjhjLTI2LjUgMC00OC0yMS41LTQ4LTQ4di00OGMwLTEzLjMgMTAuNy0yNCAyNC0yNHMyNCAxMC43IDI0IDI0djQ4YzAgMjYuNSAyMS41IDQ4IDQ4IDQ4czQ4LTIxLjUgNDgtNDh2LTQ4YzAtMTMuMy0xMC43LTI0LTI0LTI0cy0yNCAxMC43LTI0IDI0djQ4YzAgMjYuNS0yMS41IDQ4LTQ4IDQ4eiIgZmlsbD0iI2ZmZmZmZiIvPjxwYXRoIGQ9Ik0yNTYgMzY4Yy0yNi41IDAtNDgtMjEuNS00OC00OHYtNDhjMC0xMy4zIDEwLjctMjQgMjQtMjRzMjQgMTAuNyAyNCAyNHY0OGMwIDI2LjUtMjEuNSA0OC00OCA0OHM0OC0yMS41IDQ4LTQ4di00OGMwLTEzLjMtMTAuNy0yNC0yNC0yNHoiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwZDZmZiIgc3Ryb2tlLXdpZHRoPSIzIi8+PHBhdGggZD0iTTI1NiAzNjhjLTI2LjUgMC00OC0yMS41LTQ4LTQ4di00OGMwLTEzLjMgMTAuNy0yNCAyNC0yNHMyNCAxMC43IDI0IDI0djQ4YzAgMjYuNS0yMS41IDQ4LTQ4IDQ4eiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjEiIHN0eWxlPSJvcGFjaXR5OiAwLjIiLz48cGF0aCBkPSJNMjU2IDM2OGMtMjYuNSAwLTQ4LTIxLjUtNDgtNDh2LTQ4YzAtMTMuMyAxMC43LTI0IDI0LTI0czI0IDEwLjcgMjQgMjR2NDhjMCAyNi41LTIxLjUgNDgtNDggNDh6IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iMSIgc3R5bGU9Im9wYWNpdHk6IDAuMSIvPjxwYXRoIGQ9Ik0yNTYgMjcyYy01MyAwLTk2LTQzLTk2LTk2di00OGMwIDEzLjMtMTAuNyAyNC0yNCAyNHMtMjQgMTAuNy0yNCAyNHY0OGMwIDUzIDQzIDk2IDk2IDk2czk2LTQzIDk2LTk2di00OGMwLTEzLjMtMTAuNy0yNC0yNC0yMzMzLTI0IDEwLjctMjQgMjR2NDhjMCA1My00MyA5Ni05NiA5NnoiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLXdpZHRoPSIxIiBzdHlsZT0ib3BhY2l0eTogMC4xIi8+PHBhdGggZD0iTTI1NiAzNjhjLTI2LjUgMC00OC0yMS41LTQ4LTQ4di00OGMwLTEzLjMgMTAuNy0yNCAyNC0yNHMyNCAxMC43IDI0IDI0djQ4YzAgMjYuNS0yMS41IDQ4LTQ4IDQ4eiIgZmlsbD0iI2ZmZmZmZiIgc3Ryb2tlLXdpZHRoPSIxIiBzdHlsZT0ib3BhY2l0eTogMC4yIi8+PHBhdGggZD0iTTI1NiA0MzJjLTEzLjMgMC0yNC0xMC43LTI0LTI0di00OGMwLTEzLjMgMTAuNy0yNCAyNC0yNHMyNCAxMC43IDI0IDI0djQ4YzAgMTMuMy0xMC43IDI0LTI0IDI0eiIgZmlsbD0iI2ZmZmZmZiIgc3Ryb2tlLXdpZHRoPSIxIiBzdHlsZT0ib3BhY2l0eTogMC4xIi8+PHBhdGggZD0iTTI1NiA0MzJjLTEzLjMgMC0yNC0xMC43LTI0LTI0di00OGMwLTEzLjMgMTAuNy0yNCAyNC0yNHMyNCAxMC43IDI0IDI0djQ4YzAgMTMuMy0xMC43IDI0LTI0IDI0eiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjEiIHN0eWxlPSJvcGFjaXR5OiAwLjIiLz48cGF0aCBkPSJNMjU2IDQzMmMtMTMuMyAwLTI0LTEwLjctMjQtMjR2LTQ4YzAtMTMuMyAxMC43LTI0IDI0LTI0czI0IDEwLjctMjQgMjR2NDhjMCAxMy4zLTEwLjcgMjQtMjQgMjR6IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iMSIgc3R5bGU9Im9wYWNpdHk6IDAuMSIvPjxwYXRoIGQ9Ik0yNTYgNDg4Yy02LjYgMC0xMi01LjQtMTItMTJ2LTQ4YzAtNi42IDUuNC0xMiAxMi0xMnMxMiA1LjQgMTIgMTJ2NDhjMCA2LjYtNS40IDEyLTEyIDEyeiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjEiIHN0eWxlPSJvcGFjaXR5OiAwLjIiLz48cGF0aCBkPSJNMjU2IDQ4OGMtNi42IDAtMTItNS40LTEyLTEydi00OGMwIDYuNi0xMC43IDEyLTI0IDEycy0yNC01LjQtMjQtMTJ2LTQ4YzAtNi42IDEwLjctMTIgMjQtMTJzMjQgNS40IDI0IDEydjQ4YzAgNi42LTUuNCAxMi0xMiAxMnoiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLXdpZHRoPSIxIiBzdHlsZT0ib3BhY2l0eTogMC4xIi8+PC9zdmc+" alt="Robotic Microphone">
                 </button>
                 <div class="response" id="response">Click the microphone to start talking...</div>
             </div>
@@ -591,18 +591,18 @@
         <section class="features">
             <div class="feature-card">
                 <div class="feature-icon">🎯</div>
-                <h4>Voice Recognition</h4>
-                <p>Advanced speech-to-text technology that understands multiple languages with high accuracy</p>
+                <h4 id="feature1Title">Voice Recognition</h4>
+                <p id="feature1Description">Advanced speech-to-text technology that understands multiple languages with high accuracy</p>
             </div>
             <div class="feature-card">
                 <div class="feature-icon">🤖</div>
-                <h4>AI Powered</h4>
-                <p>Powered by cutting-edge AI models for intelligent and contextual responses</p>
+                <h4 id="feature2Title">AI Powered</h4>
+                <p id="feature2Description">Powered by cutting-edge AI models for intelligent and contextual responses</p>
             </div>
             <div class="feature-card">
                 <div class="feature-icon">🌍</div>
-                <h4>Multi-Language</h4>
-                <p>Support for English and German with seamless language switching</p>
+                <h4 id="feature3Title">Multi-Language</h4>
+                <p id="feature3Description">Support for English and German with seamless language switching</p>
             </div>
         </section>
     </div>
@@ -680,15 +680,39 @@
         const translations = {
             en: {
                 title: "Talking Robot Assistant",
-                description: "Welcome to the future of AI interaction! Experience our advanced talking robot assistant that understands and responds in multiple languages.",
-                thinking: "Thinking...",
-                error: "Sorry, I encountered an error. Please try again."
+                description: "Welcome to the future of AI interaction! Experience our advanced talking robot assistant that understands and responds in multiple languages with cutting-edge voice recognition technology.",
+                thinking: "Processing your request...",
+                error: "Sorry, I encountered an error. Please try again.",
+                robotInfo: "AI-Powered Assistant",
+                robotDescription: "Advanced natural language processing with voice recognition and synthesis capabilities",
+                chatHeader: "Start Talking",
+                chatDescription: "Click the microphone and ask anything!",
+                responsePlaceholder: "Click the microphone to start talking...",
+                feature1Title: "Voice Recognition",
+                feature1Description: "Advanced speech-to-text technology that understands multiple languages with high accuracy",
+                feature2Title: "AI Powered",
+                feature2Description: "Powered by cutting-edge AI models for intelligent and contextual responses",
+                feature3Title: "Multi-Language",
+                feature3Description: "Support for English and German with seamless language switching",
+                copyright: "© 2024 Talking Robot Assistant. All rights reserved."
             },
             de: {
                 title: "Sprechender Roboter Assistent",
-                description: "Willkommen in der Zukunft der KI-Interaktion! Erleben Sie unseren fortschrittlichen sprechenden Roboter-Assistenten, der mehrere Sprachen versteht und darauf reagiert.",
-                thinking: "Denke nach...",
-                error: "Entschuldigung, ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut."
+                description: "Willkommen in der Zukunft der KI-Interaktion! Erleben Sie unseren fortschrittlichen sprechenden Roboter-Assistenten, der mehrere Sprachen versteht und mit modernster Spracherkennungstechnologie darauf reagiert.",
+                thinking: "Verarbeite Ihre Anfrage...",
+                error: "Entschuldigung, ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut.",
+                robotInfo: "KI-gestützter Assistent",
+                robotDescription: "Fortschrittliche Verarbeitung natürlicher Sprache mit Spracherkennung und Sprachsynthese",
+                chatHeader: "Fangen Sie an zu sprechen",
+                chatDescription: "Klicken Sie auf das Mikrofon und fragen Sie alles!",
+                responsePlaceholder: "Klicken Sie auf das Mikrofon, um zu sprechen...",
+                feature1Title: "Spracherkennung",
+                feature1Description: "Fortschrittliche Sprach-zu-Text-Technologie, die mehrere Sprachen mit hoher Genauigkeit versteht",
+                feature2Title: "KI-gestützt",
+                feature2Description: "Angetrieben von modernsten KI-Modellen für intelligente und kontextbezogene Antworten",
+                feature3Title: "Mehrsprachig",
+                feature3Description: "Unterstützung für Deutsch und Englisch mit nahtlosem Sprachwechsel",
+                copyright: "© 2024 Sprechender Roboter Assistent. Alle Rechte vorbehalten."
             }
         };
 
@@ -701,9 +725,7 @@
                     button.classList.add('active');
                 }
             });
-            document.getElementById('title').textContent = translations[currentLanguage].title;
-            document.getElementById('siteDescription').textContent = translations[currentLanguage].description;
-            updateFooterAndDescription();
+            applyTranslations(currentLanguage);
         }
 
         // Call initialization when page loads
@@ -711,8 +733,7 @@
 
         function changeLanguage(lang) {
             currentLanguage = lang;
-            document.getElementById('title').textContent = translations[lang].title;
-            document.getElementById('siteDescription').textContent = translations[lang].description;
+            applyTranslations(lang);
             const buttons = document.querySelectorAll('.language-selector button');
             buttons.forEach(btn => {
                 btn.classList.remove('active');
@@ -725,6 +746,34 @@
             if (recognition) {
                 recognition.lang = currentLanguage === 'en' ? 'en-US' : 'de-DE';
             }
+        }
+
+        // Apply all translations to UI elements
+        function applyTranslations(lang) {
+            const t = translations[lang];
+            
+            // Main title and description
+            document.getElementById('title').textContent = t.title;
+            document.getElementById('siteDescription').textContent = t.description;
+            
+            // Robot section
+            document.getElementById('robotInfo').textContent = t.robotInfo;
+            document.getElementById('robotDescription').textContent = t.robotDescription;
+            
+            // Chat section
+            document.getElementById('chatHeader').textContent = t.chatHeader;
+            document.getElementById('chatDescription').textContent = t.chatDescription;
+            document.getElementById('response').textContent = t.responsePlaceholder;
+            
+            // Feature cards
+            document.getElementById('feature1Title').textContent = t.feature1Title;
+            document.getElementById('feature1Description').textContent = t.feature1Description;
+            document.getElementById('feature2Title').textContent = t.feature2Title;
+            document.getElementById('feature2Description').textContent = t.feature2Description;
+            document.getElementById('feature3Title').textContent = t.feature3Title;
+            document.getElementById('feature3Description').textContent = t.feature3Description;
+            
+            // Footer
             updateFooterAndDescription();
         }
 
